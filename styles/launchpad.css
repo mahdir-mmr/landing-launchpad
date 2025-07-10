@@ -7,7 +7,13 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* button font */
 
+.raleway-button {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* button */
 .btn-primary{
     background-color: #4E47FF;
@@ -17,6 +23,10 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+}
+/* header */
+.header{
+    background-image: url('../images/Hero-bg.png');
 }
 /* nav styles */
 nav{
@@ -32,4 +42,25 @@ nav{
 }
 nav ul li{
     list-style: none;
+}
+
+/* banner */
+.banner{
+    justify-content: center;
+    /* margin: 0 150px; */
+    /* margin: 300px 267px 237px; */
+}
+.banner-content{
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    /* max-width: 900px; */
+    /* max-height: 150px; */
+    margin: 300px 267px 237px;
+}
+.banner-btn{
+     text-align: center;
+    /* margin: 189px 633px 152px; */
+    margin-top: 80px;
 }
