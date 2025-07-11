@@ -211,3 +211,57 @@ nav ul li {
   border-radius: 48px;
 }
 
+/* form */
+.form {
+  display: flex;
+  gap: 115px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.form  div {
+  width: 100%;
+}
+.form-title {
+  font-size: 97px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+.form-features {
+  width: 100%;
+  margin-right: 150px;
+}
+.form-features label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-features input {
+  height: 70px;
+  width: 100%;
+  border-radius: 10px;
+  border-color:#25243242; 
+}
+.form-features textarea {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  border-color:#25243242; 
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.form-features input::placeholder {
+  padding-left: 24px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.form-features textarea::placeholder {
+  padding-left: 24px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.form-features label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
