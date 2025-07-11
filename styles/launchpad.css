@@ -132,7 +132,7 @@ nav ul li {
   color: #000000;
 }
 
-/* User Review Section */
+/* Review */
 .review {
   margin-top: 140px;
   margin-bottom: 140px;
@@ -185,3 +185,29 @@ nav ul li {
   font-size: 16px;
   color: #b3b3b3;
 }
+
+/* Focus */
+.focus {
+  text-align: center;
+  background: white;
+  padding: 70px 0px;
+  border-radius: 14px;
+  margin-bottom: 95px;
+}
+.focus h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.studio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-size: 15px;
+}
+.focus button {
+  margin-bottom: 32px;
+}
+.focus img {
+  border-radius: 48px;
+}
+
